@@ -12,9 +12,11 @@
             //lineLength.LineLengthCalc();
 
             //UC2
-            EqualityOfLines equalityOfLines = new EqualityOfLines();
-            equalityOfLines.EqualityOfLine();
-
+            //EqualityOfLines equalityOfLines = new EqualityOfLines();
+            //equalityOfLines.EqualityOfLine();
+            //UC3
+            LineComparison lineComparison = new LineComparison();
+            lineComparison.ComparisonOfLine();
         }
     }
 }
