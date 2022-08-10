@@ -5,8 +5,16 @@
         static void Main(string[] args)
         {
             Console.WriteLine("Welcome to Line Calculation");
-            LineLength lineLength= new LineLength();
-            lineLength.LineLengthCalc();
+
+            //UC1
+
+            //LineLength lineLength= new LineLength();
+            //lineLength.LineLengthCalc();
+
+            //UC2
+            EqualityOfLines equalityOfLines = new EqualityOfLines();
+            equalityOfLines.EqualityOfLine();
+
         }
     }
 }
